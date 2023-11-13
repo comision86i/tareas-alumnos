@@ -6,6 +6,8 @@ let nota3 = parseFloat(prompt("Tercera nota:","10"));
 let promedio = ((nota1+nota2+nota3)/3).toFixed(2);
 if(promedio>=7){
     document.write(`<p><strong>PROMOCIONADO</strong> con nota ${promedio}</p>`); 
+}else if(promedio>=4){
+    document.write(`<p><strong>REGULAR</strong> con nota ${promedio}</p>`); 
 }else{
-    document.write(`<p><strong>NO PROMOCIONADO</strong> con nota ${promedio}</p>`); 
+    document.write(`<p><strong>NO APROBADO</strong> con nota ${promedio}</p>`); 
 }
