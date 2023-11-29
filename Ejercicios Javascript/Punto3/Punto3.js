@@ -1,0 +1,1 @@
+document.write( " Resultado " + (3+5))
