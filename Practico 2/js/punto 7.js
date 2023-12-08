@@ -1,4 +1,4 @@
-// 7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
+// 7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma: (suponiendo que indica 30).
 
 
 let i, rep;
@@ -13,7 +13,7 @@ if (Number(numrep) == numrep) {
             for (rep = i; rep >= 1; rep--) {
                 document.write(i);
             }
-            document.write("<br>");
+            document.write('<br>');
         }
     }else {
         alert('El número ingresado no es válido');
