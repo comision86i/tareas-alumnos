@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0b1927;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+    border: 2px solid #e00606; 
+    padding: 20px;
+    background-color: #ffffff;}
+
+.tiempo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 0 5px;
+    font-size: 1rem;
+}
+.nico{
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+}
